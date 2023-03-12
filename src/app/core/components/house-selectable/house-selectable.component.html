@@ -1,0 +1,27 @@
+<ion-accordion-group #accordion>
+  <ion-accordion value="first">
+<ion-item slot="header" color="light">  
+    <ng-container *ngIf="selectedHouse!=null">
+      <ion-avatar class="house">
+        <img *ngIf="!selectedHouse?.picture" alt="Silhouette of a house's head"
+          src="https://ionicframework.com/docs/img/demos/avatar.svg">
+        <img *ngIf="selectedHouse.picture" alt="House picture" [src]="selectedHouse.picture">
+      </ion-avatar>
+      <ion-label>{{selectedHouse?.name}}</ion-label>
+    </ng-container>
+    <ion-label *ngIf="!selectedHouse">Selecciona un Cliente:</ion-label>
+</ion-item>
+  <div class="ion-padding" slot="content">
+    <ion-list>
+      <ion-item *ngFor="let house of getHouses()" button (click)="onHouseClicked(house, accordion)" >
+        <ion-avatar class="house">
+          <img *ngIf="!house.picture" alt="Silhouette of a house's head"
+            src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+          <img *ngIf="house.picture" alt="House picture" [src]="house.picture"/>
+        </ion-avatar>
+        <ion-label>{{house.pais}}, {{house.name}}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-accordion>
+</ion-accordion-group>

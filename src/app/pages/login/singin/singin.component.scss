@@ -1,0 +1,26 @@
+ion-grid.login{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        width:300px;
+        .form-button{
+            width:100%;
+            display:flex;
+            padding-top:10px;
+        }
+        .form-button.left{
+            justify-content: flex-start;
+        }
+        .form-button.right{
+            justify-content: flex-end;
+        }
+    }
+}
+
+.background-login{
+    padding: 1%;
+    background-color: rgb(42, 132, 129);
+    border-radius: 10%;
+}

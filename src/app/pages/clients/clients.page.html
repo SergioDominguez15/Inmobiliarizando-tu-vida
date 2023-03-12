@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar class="client" color="white">
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <div id="nav-pages">
+    <ion-title>{{'Client.title' | translate}}</ion-title>
+    </div> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar [debounce]="50" (ionChange)="handleChange2($event)"></ion-searchbar>
+  <div *ngFor="let client of filteredClients">
+    <ion-list>
+      <app-client *ngFor="let client of filteredClients" [client]="client" (onEdit)="onEditClient($event)" (onDelete)="onDeleteClient($event)"></app-client>
+    </ion-list>
+  </div>
+  <div *ngIf="!filteredClients">
+    <ion-list>
+      <app-client *ngFor="let client of getClients()" [client]="client" (onEdit)="onEditClient($event)" (onDelete)="onDeleteClient($event)"></app-client>
+    </ion-list>
+  </div>
+</ion-content>
+
+<ion-segment>
+  <ion-segment-button (click)="onNewClient()" icon-only>
+    <ion-icon name="add-circle" color="primary" style="zoom:2"></ion-icon>
+  </ion-segment-button>
+</ion-segment>

@@ -1,0 +1,91 @@
+{
+    "login":{
+        "title":"Iniciar sesión",
+        "email":"Email",
+        "password":"Contraseña",
+        "send":"Enviar"
+    },
+    "register":{
+        "title":"Registro",
+        "register":"quiero registrarme",
+        "first_name":"Nombre",
+        "last_name":"Apellidos",
+        "email":"Email",
+        "password":"Contraseña",
+        "confirm_password":"Repita contraseña",
+        "send":"Enviar"
+    },
+    "home":{
+        "title":"Su idioma es Español",
+        "langButtom": "Cambiar idioma",
+        "labels":"Configuracion Visual",
+        "titlemercados":"InmoDominguez",
+        "mercado":"InmoDominguez",
+        "descrip": "Alumno de 2ºDAM en CPIFP Nuevo curso 2022/2023 ",
+        "logout":"Cerrar Sesion",        
+        "subtitle1": "App para Inmobiliarias",
+        "subtitle2": "Inmobiliary, app desarrollada por Sergio Dominguez Gomez para gestionar las visitas de los clientes de la inmobiliaria con las casas disponibles.",
+        "subtitle3": "Centro de formacion",
+        "subtitle4": "CPIFP Nuevo es un Centro Integrado situado en el Parque Tecnológico de Andalucía (PTA). Dispone de Los grados de la rama de Informática y Comunicaciones, así como los cursos de especialización. En pleno corazon del parque tecnológico rodeado por empresas del sector."
+
+    },
+    "Houses":{
+        "title":"Gestion de Cliente",
+        "aviso":"¿Está seguro de que desea borrar al cliente?"
+    },
+    "Client":{
+        "title":"Gestion de Vivienda",
+        "aviso":"¿Está seguro de que quiere borrar la vivienda?"
+    },
+    "Assignments":{
+        "title":"Asignacion del Cliente a la vivienda",
+        "aviso":"¿Esta seguro que desea borrar la cita?"
+
+    },
+    "House-detail":{
+        "title":"Datos del Cliente",
+        "nombre":"Nombre",
+        "pais":"Telefono",
+        "horario":"Interes",
+        "imagen":"Imagen",
+        "modificar":"Modificar" 
+    },
+    "Client-detail":{
+        "posicioninicial":"Precio de venta",
+        "title":"Datos de la vivienda",
+        "nombre":"Nombre",
+        "duracion":"Direccion",
+        "imagen":"Imagen"
+    },
+    "button": {
+        "new": "Crear",
+        "edit": "Editar",
+        "delete": "Borrar",
+        "close": "Cerrar",
+        "cancel": "Cancelar",
+        "apply": "Aplicar",
+        "cerrar":"Cerrar"
+      },
+      "app":{
+        "oscuro":"Oscuro",
+        "claro":"Claro"
+      },
+      "about":{
+        "title":"Contacto",
+        "informacion":"Informacion",
+        "text":"Somos una pequeña inmobiliaria que acaba de empezar en la zona de Málaga. Puedes seguirnos en las siguientes redes sociales",
+        "redessociales": "Redes sociales"
+      },
+      "validators":{
+        "passwordMatch": "Las contraseñas no coinciden",
+        "passwordProto": "Al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número",
+        "email": "Debe introducir un email válido"
+      },
+      "change-picture":{
+        "title":"Cambiar imagen",
+        "library":"Desde la galería",
+        "camera":"Desde la cámara",
+        "file":"Desde tu equipo"
+        }
+
+}

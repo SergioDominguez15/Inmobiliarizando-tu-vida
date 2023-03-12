@@ -1,0 +1,92 @@
+{
+    "login":{
+        "title":"Sign in",
+        "email":"Email",
+        "password":"Password",
+        "send":"Send"
+    },
+    "register":{
+        "title":"Register",
+        "register":"I want to register",
+        "first_name":"First name",
+        "last_name":"Last name",
+        "email":"Email",
+        "password":"Password",
+        "confirm_password":"Repeat password",
+        "send":"Send"
+    },
+    "home":{
+        "title":"His language is English",
+        "langButtom": "Change language",
+        "labels":"Visual Configuration",
+        "titlemercados":"House Value",
+        "mercado":"InmoDominguez",
+        "descrip": "2nd DAM student at CPIFP NUEVO academic year 2022/2023",
+        "logout":"Log Out",
+        "subtitle1":"App for Real Estate",
+        "subtitle2":"Real Estate, app developed by Sergio Dominguez Gomez to manage visits from real estate clients with available houses.",
+        "subtitle3":"Professional training center",
+        "subtitle4":"CPIFP Nuevo is an Integrated Center located in the Andalusia Technology Park (PTA). It has degrees in the Computer Science and Communications branch, as well as specialization courses. In the heart of the technology park surrounded by companies in the sector."
+
+
+    },
+    "Houses":{
+        "title":"Houses Management",
+        "aviso":"Are you sure you want to delete the house?"
+    },
+    "Client":{
+        "title":"Client Management",
+        "aviso":"Are you sure you want to delete a client?"
+    },
+    "Assignments":{
+        "title":"Client assignment in the House",
+        "aviso":"Are you sure you want to delete the homework assignment?"
+
+    },
+    "House-detail":{
+        "title":"Data of the house",
+        "nombre":"Name",
+        "pais":"Telephone",
+        "horario":"Interested in",
+        "imagen":"Picture",
+        "modificar":"Modify"
+    },
+    "Client-detail":{
+        "posicioninicial":"Open client Value",
+        "title":"Client data",
+        "nombre":"Name",
+        "duracion":"Direction",
+        "imagen":"Picture"
+    },
+    "button": {
+        "new": "New",
+        "edit": "Edit",
+        "delete": "Delete",
+        "close": "Close",
+        "cancel": "Cancel",
+        "apply": "Apply",
+        "cerrar":"Close"
+      },
+      "app":{
+        "oscuro":"Dark",
+        "claro":"Light"
+      },
+      "about":{
+        "title":"About",
+        "informacion":"Information",
+        "text":"We are a small real estate company that has just started in the Malaga area. You can follow us on the following social networks",
+        "redessociales": "Social Network"
+      },
+      "validators":{
+        "passwordMatch": "Passwords do not match",
+        "passwordProto": "At least 8 characters, one uppercase letter, one lowercase letter and one number",
+        "email": "You must introduce a valid email"
+      },
+      "change-picture":{
+            "title":"Change image",
+            "library":"From gallery",
+            "camera":"From camera",
+            "file":"From your computer"
+      }
+
+}

@@ -1,0 +1,7 @@
+{
+  "name": "HomeClient",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

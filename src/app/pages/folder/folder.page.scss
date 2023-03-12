@@ -1,0 +1,33 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+
+}
+
+ion-card {
+  column-count: 2;
+  width: 50%;
+ 
+}
+div {
+  display: flex;
+  flex-direction: row;
+  height: 62%;
+}
+
+#tres {
+  width: 100%;
+}
+
+capacitor-google-map {
+  display: inline-block;
+  width: 275px;
+  height: 400px;
+}
+#insti {
+  width: 70%;
+}

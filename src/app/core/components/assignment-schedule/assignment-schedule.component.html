@@ -1,0 +1,15 @@
+<ion-item>
+  <ion-avatar class="client minimized">
+    <img *ngIf="!getClient()?.picture" alt="Silhouette of a house's head" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+    <img *ngIf="getClient()?.picture" alt="House picture" [src]="getClient().picture" />
+  </ion-avatar>
+  <ion-icon name="link-outline"></ion-icon>
+  <ion-avatar class="house minimized">
+    <img *ngIf="!getHouse()?.picture" alt="Silhouette of a house's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    <img *ngIf="getHouse()?.picture" alt="House picture" [src]="getHouse().picture" />
+  </ion-avatar>
+  <ion-label class="ion-text-center ion-text-wrap">{{assignment.dateTime | date:'short'}}</ion-label>
+  
+</ion-item>
+
+ 
